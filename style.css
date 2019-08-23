@@ -3,40 +3,43 @@ body {
     font-size: 1.2em;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777;
-    width: 960px;
+    width: 100%;
 }
 .container {
     position: absolute;
-    width: 65%;
+    width: 960px;
     margin-left: 17.5%;
     text-align: center;
 }
 
 .rectangle{
     background-color: #ebebeb;
-    padding: 2.2em;
-    margin-top: .2em;
-    margin-bottom: .4em;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 100px;
 }
 #middle {
     margin-top: 1em;
     margin-bottom: 1em;
+    height: 270px;
+    clear: both;
 }
 section {
     width: 495px;
-    padding: 1%;
-    margin-right: 2%;
-    height: 15em;
+    padding: 8px;
+    margin-right: 5px;
+    height: 250px;
     float: left;
     overflow: hidden;
     background-color:#ebebeb;
 }
 
 aside {
-    width: 433px;
-    padding: 1%;
-    height: 15em;
-    /* float: left; */
+    width: 425px;
+    padding: 8px;
+    height: 250px;
+    float: left;
     overflow:hidden;
     background-color:  #ebebeb;
 
@@ -46,13 +49,19 @@ article {
     background-color: #777;
     color: #ebebeb;
     padding: .2em;
+    height: 177px;
+    width: 470px;
+    margin: 10px;
 }
 
 .lilrect {
     background-color:  #ebebeb;
     color: #777;
-    padding: 1em;
+    padding: 10px;
     font-size: 1em;
     margin-left:2em;
     margin-right:2em;
+}
+
+footer {
 }
